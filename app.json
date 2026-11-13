@@ -7,11 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "rahmet-bahcesi-mobile",
     "userInterfaceStyle": "automatic",
-    "ios":
-    "bundleldentifier:":
-    {"com.rahmetbahcesi.app"}
-      "package": "com.rahmetbahcesi.app"
-    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
