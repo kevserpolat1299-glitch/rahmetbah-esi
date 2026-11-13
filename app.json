@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Rahmet Bahçesi",
+    "slug": "rahmet-bahcesi-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "rahmet-bahcesi-mobile",
+    "userInterfaceStyle": "automatic",
+    "ios":
+    "bundleldentifier:":
+    {"com.rahmetbahcesi.app"}
+      "package": "com.rahmetbahcesi.app"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#f8f4ed"
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-9758853482101209~1718873325",
+          "iosAppId": "ca-app-pub-9758853482101209~3319301976",
+          "userTrackingUsageDescription": "Bu sürümde reklamlar kişiselleştirilmez ve uygulama izleme izni istemez."
+        }
+      ],
+      "expo-tracking-transparency",
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rahmetbahcesi.app",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "Bu sürümde reklamlar kişiselleştirilmez ve uygulama izleme izni istemez.",
+        "NSLocationWhenInUseUsageDescription": "Kıble yönünü bulunduğun konuma göre göstermek için konumun kullanılır. Konum izni vermesen de uygulamanın diğer bölümlerini kullanabilirsin."
+      }
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
