@@ -7,4 +7,4 @@ scripts:
 - name: Install dependencies
  script: npm install
 - name: Build IPA
- script: xcode-project build-ipa --workspace ios/*.xcworkspace --scheme *
+ script: xcode-project build-ipa--workspace ios/*.xcworkspace--scheme *
